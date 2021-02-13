@@ -1,0 +1,211 @@
+@media (min-width: 500px) {
+  .container-1 {
+    display: flex;
+    /* align-items: flex-start; *SS/
+    align-items: flex-end;
+    align-items: center;
+    /*flex-direction: column;*/
+  }
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+}
+body {
+  background-color: black;
+  padding: 5%;
+  padding-top: 1%;
+}
+.box-0 {
+  flex: 1;
+  order: 1;
+  background-color: rgb(0, 0, 0);
+  padding: 1%;
+}
+
+.box-1 {
+  flex: 1;
+  order: 2;
+  background-color: rgb(0, 0, 0);
+  padding: 1%;
+}
+.box-2 {
+  flex: 1;
+  order: 3;
+  background-color: rgb(0, 0, 0, 5);
+  padding: 0%;
+  color: white;
+  align-self: flex-start;
+}
+.dev1 {
+  fill: black;
+}
+.dev2 {
+  fill: black;
+}
+.removed {
+  display: none;
+}
+.names {
+  width: 15%;
+}
+button {
+  color: white;
+  background: gray;
+  border: none;
+  outline: none;
+  /* width: 5%; */
+  text-align: left;
+}
+.box-0 {
+  flex-basis: 5%;
+}
+
+.box-1 {
+  flex-basis: 25%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-2 {
+  flex-basis: 70%;
+}
+.align {
+  text-align: start;
+}
+
+.image {
+  justify-items: auto;
+}
+.text-paragraph {
+  justify-content: center;
+}
+polygon {
+  fill: white;
+  transition: 1s fill;
+}
+polygon:hover {
+  fill: burlywood;
+}
+.lideta {
+  stroke: yellow;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 50%;
+}
+.kirkos {
+  stroke: rgb(230, 179, 179);
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 10%;
+}
+.nifassilk {
+  stroke: goldenrod;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 50%;
+}
+.akakikaliti {
+  stroke: olive;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 10%;
+}
+.yeka {
+  stroke: lawngreen;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 10%;
+}
+.bole {
+  stroke: green;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 10%;
+}
+.kolfekeraniyo {
+  stroke: khaki;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 50%;
+}
+.addisketema {
+  stroke: palegoldenrod;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 50%;
+}
+.arada {
+  stroke: peru;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 50%;
+}
+.gulele {
+  stroke: orange;
+  stroke-width: 1px;
+  stroke-dasharray: 1;
+  fill: rgb(255, 255, 255, 5);
+  fill-opacity: 50%;
+}
+.removed {
+  display: none;
+}
+button {
+  position: relative;
+  color: white;
+  font-size: 12pt;
+  background: gray;
+  border: none;
+  outline: none;
+  left: 0%;
+  width: 160px;
+  text-align: left;
+}
+button.hover {
+  fill: whitesmoke;
+}
+/*
+#sidebar {
+  text-align: left;
+  float: right;
+  width: 10%;
+  background: none;
+  color: #fff;
+  padding: 0px;
+  box-sizing: border-box;
+}
+*/
+.button {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-size: 15pt;
+  background-size: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+}
+.button:hover {
+  color: red;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-size: 15pt;
+  background-size: 100%;
+  background-color: white;
+  padding: 1%;
+}
